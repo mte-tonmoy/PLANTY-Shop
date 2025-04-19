@@ -1,0 +1,250 @@
+/* For Mobile Devices */
+@media screen and (max-width: 676px) {
+  .header-section {
+    flex-direction: column;
+  }
+
+  .items-container {
+    margin: 1em auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .buttons-container{
+    margin: 1em auto;
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .main-section {
+    flex-direction: column;
+    margin: 1em;
+    text-align: center;
+  }
+
+  .main-section h1 {
+    font-size: 2em;
+    justify-content: center;
+  }
+
+  .main-section h2 {
+    font-size: 1.2em;
+  }
+
+  .main-section p {
+    font-size: 1em;
+  }
+
+  .main-section .hero-button {
+    flex-direction: column;
+    margin: 1em 0;
+    gap: 1em;
+  }
+
+  .shop-now-button a,
+  .hero-button .new-price a {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    margin: 0.5em 0;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .deal-of-the-day {
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+  }
+
+  .deal-of-the-day h1,
+  .deal-of-the-day h2 {
+    font-size: 1.5em;
+    justify-content: center;
+  }
+
+  .deal-of-the-day .discount,
+  .deal-of-the-day .current,
+  .new-arrivals .discount,
+  .new-arrivals .current {
+    font-size: 1em;
+    margin: 0.5em 0;
+  }
+
+  .deal .countdown {
+    flex-direction: column;
+    padding: 1em;
+    gap: 0.5em;
+  }
+
+  .deal .countdown .days,
+  .deal .countdown .hours,
+  .deal .countdown .min,
+  .deal .countdown .sec {
+    width: 100%;
+    font-size: 1em;
+    margin: 0.2em 0;
+  }
+}
+/* For Tablet */
+
+@media screen and (max-width: 900px) {
+  .header-section {
+    flex-direction: column;
+    margin: 2em;
+    gap: 1em;
+  }
+
+  .nav-container,
+  .items-container,
+  .buttons-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .items-container a {
+    margin: 0.5em 1em;
+  }
+
+  .buttons-container {
+    justify-content: center;
+  }
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .main-section {
+    flex-direction: column;
+    margin: 2em;
+    text-align: center;
+  }
+
+  .main-section h1 {
+    font-size: 2.5em;
+    justify-content: center;
+  }
+
+  .main-section .hero-button {
+    flex-direction: column;
+    margin: 1.5em 0;
+    gap: 1em;
+  }
+
+  .shop-now-button a,
+  .hero-button .new-price a {
+    font-size: 1.1em;
+    padding: 0.6em 1.2em;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .deal-of-the-day {
+    flex-direction: column;
+    margin: 2em;
+    padding: 1em;
+    text-align: center;
+  }
+
+  .deal-of-the-day h1 {
+    font-size: 1.8em;
+  }
+
+  .deal-of-the-day h2 {
+    font-size: 1.3em;
+  }
+
+  .deal .countdown {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+  }
+
+  .deal .countdown .days,
+  .deal .countdown .hours,
+  .deal .countdown .min,
+  .deal .countdown .sec {
+    width: 40%;
+    margin: 0.5em;
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .thumbnail {
+    margin: 3em 4em;
+  }
+
+  .thumbnail .living {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .thumbnail .living .shop-now-button a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .thumbnail {
+    margin: 2em;
+  }
+
+  .thumbnail .living {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .thumbnail .living h1 {
+    font-size: 1.5em;
+    justify-content: center;
+  }
+
+  .thumbnail .living h2,
+  .thumbnail .living p {
+    font-size: 1em;
+  }
+
+  .thumbnail .living .shop-now-button a {
+    font-size: 1em;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .thumbnail {
+    margin: 1em;
+  }
+
+  .thumbnail .living h1 {
+    font-size: 1.2em;
+  }
+
+  .thumbnail .living h2,
+  .thumbnail .living p {
+    font-size: 0.95em;
+  }
+}

@@ -1,0 +1,498 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  background-image: url("../assets/watercolor-paper-texture 1.png");
+  background-size: cover;
+  background-position: center;
+  /* position: relative; */
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  width: 40%;
+}
+
+.nav-container p {
+  margin: 0 1em;
+  font-size: 1.2em;
+  color: #25523b;
+}
+
+.header-section {
+  /* max-width: 1250px; */
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  background-color: rgba(53, 136, 136, 0.2);
+  margin: 3em 5em;
+}
+
+.items-container {
+  width: 40%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.items-container a {
+  text-decoration: none;
+  color: #25523b;
+  font-size: 1.2em;
+  font-weight: medium;
+  margin: auto 2em;
+}
+
+.buttons-container {
+  display: flex;
+  /* align-items: center; */
+  width: 20%;
+  justify-content: right;
+}
+
+.buttons-container .login-button a,
+.register-button a {
+  background-color: #25523b;
+  color: white;
+  margin: 0 1em;
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  font-weight: medium;
+  text-decoration: none;
+}
+
+.main-section .hero-button {
+  display: flex;
+  margin: 2em 5em;
+  align-items: center;
+}
+
+.shop-now-button a {
+  background-color: #25523b;
+  color: white;
+  margin: 0 1em;
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  font-weight: medium;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+}
+
+.hero-button .new-price a {
+  font-size: 1.2em;
+  font-weight: medium;
+  color: #25523b;
+  text-decoration: none;
+}
+.main-section {
+  display: flex;
+  margin: 2em 5em;
+  align-items: center;
+}
+
+.main-section h1 {
+  font-size: 3em;
+  color: #25523b;
+  font-weight: medium;
+  margin: 0.5em 0;
+  justify-content: start;
+  align-items: center;
+  display: flex;
+}
+.main-section h2 {
+  font-size: 1.5em;
+  color: #25523b;
+  font-weight: medium;
+  margin: 0.5em 0;
+}
+
+.main-section p {
+  font-size: 1.2em;
+  color: black;
+  font-weight: medium;
+  margin: 0.5em 0;
+}
+.leaf-image {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.deal-of-the-day {
+  display: flex;
+  margin: 2em 5em;
+  padding: 1em 2em;
+  align-items: center;
+  justify-content: space-between;
+}
+.deal h1 {
+  font-size: 2em;
+  color: #25523b;
+  font-weight: medium;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.deal-of-the-day .discount {
+  font-size: 1.2em;
+  color: #25523b;
+  font-weight: medium;
+  text-decoration: line-through;
+}
+
+.new-arrivals .discount {
+  font-size: 1.2em;
+  color: #25523b;
+  font-weight: medium;
+  text-decoration: line-through;
+}
+.new-arrivals .current {
+  font-size: 1.2em;
+  color: #25523b;
+  font-weight: medium;
+  margin: 0 1em;
+}
+.deal-of-the-day .current {
+  font-size: 1.2em;
+  color: #25523b;
+  font-weight: medium;
+  margin: 0 1em;
+}
+
+.deal-of-the-day h1 {
+  font-size: 2em;
+  color: #25523b;
+  font-weight: medium;
+  margin: 2em auto;
+  justify-content: start;
+  align-items: center;
+  display: flex;
+}
+
+.deal-of-the-day h2 {
+  font-size: 1.5em;
+  color: #25523b;
+  font-weight: medium;
+  margin: 0.5em 0;
+}
+.deal .countdown {
+  display: flex;
+  align-items: center;
+  margin: 1em 0;
+  border-radius: 5px;
+  background-color: #25523b;
+  padding: 1em 1.5em;
+}
+
+.deal .countdown .days,
+.hours,
+.min,
+.sec {
+  font-size: 1.2em;
+  color: white;
+
+  font-weight: medium;
+
+  margin: 0 0.5em;
+  width: 25%;
+}
+
+.deal .countdown .days p,
+.hours p,
+.min p,
+.sec p {
+  text-align: center;
+}
+
+.thumbnail {
+  background-color: rgba(224, 233, 144, 25%);
+
+  margin: 5em 10em;
+}
+.thumbnail .living {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0em;
+}
+
+.thumbnail .living h1 {
+  font-size: 2em;
+  color: #25523b;
+  font-weight: medium;
+  margin: 0.5em 0;
+  justify-content: start;
+  align-items: center;
+  display: flex;
+}
+.thumbnail .living h2 {
+  font-size: 1.2em;
+  color: #25523b;
+  font-weight: medium;
+  margin: 0.5em 0;
+}
+.thumbnail .living p {
+  font-size: 1.2em;
+  color: black;
+  font-weight: medium;
+  margin: 0.5em 0;
+}
+
+.thumbnail .living .shop-now-button a {
+  background-color: #25523b;
+  color: white;
+  margin: 1em 0em;
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  font-weight: medium;
+  text-decoration: none;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.new-arrivals h1 {
+  font-size: 2em;
+  color: #25523b;
+  font-weight: medium;
+  margin: 0.5em 0;
+  justify-content: start;
+  align-items: center;
+  display: flex;
+}
+.plants h1 {
+  font-size: 2em;
+  color: #25523b;
+  font-weight: medium;
+  margin: 2em auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.new-arrivals {
+  display: flex;
+  width: 90%;
+  height: 50%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1em 0em;
+  padding: 1em 2em;
+}
+
+.new-arrivals h2 {
+  font-size: 2em;
+  color: #25523b;
+  font-weight: medium;
+  margin: 0.5em 0;
+  justify-content: start;
+  align-items: center;
+  display: flex;
+}
+
+.moto {
+  background-image: url("../assets/Frame 7207.png");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.moto a {
+  background-color: white;
+  color: #25523b;
+  margin: 1em 1em;
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  font-weight: medium;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+}
+
+.plant-collection {
+  display: flex;
+
+  height: 50%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1em 0em;
+  padding: 1em 2em;
+  gap: 2em;
+}
+
+.plant-types h1 {
+  font-size: 2em;
+  color: #25523b;
+  font-weight: medium;
+  margin: 2em auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.plant-collection h2 {
+  font-size: 2em;
+  color: white;
+  font-weight: medium;
+  margin: 0.5em 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.plant-collection a {
+  background-color: white;
+  color: #25523b;
+  margin: 1em 1em;
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  font-weight: medium;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+}
+.plant-collection .indoor {
+  background-image: url("../assets/Frame 7208.png");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.plant-collection .outdoor {
+  background-image: url("../assets/Frame 7209.png");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.footer {
+  background: #25523b;
+  color: white;
+  padding: 40px 20px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-col {
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+
+.footer-col h2.logo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-col h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.footer-col h3::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #c7db85;
+  margin-top: 5px;
+}
+
+.footer-col p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-col input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.footer-col button {
+  background: #c7db85;
+  color: #25523b;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer-col .note {
+  font-size: 12px;
+  color: #ddd;
+  margin-top: 5px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+}
